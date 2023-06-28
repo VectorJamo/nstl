@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\C++ Projects\nstl\nstl\src\nvector.h(76,31): warning C4018: '>': signed/unsigned mismatch
+C:\C++ Projects\nstl\nstl\src\nvector.h(75,2): message : while compiling class template member function 'void nstl::vector<int>::reserve(int)'
+C:\C++ Projects\nstl\nstl\src\main.cpp(9,15): message : see reference to function template instantiation 'void nstl::vector<int>::reserve(int)' being compiled
+C:\C++ Projects\nstl\nstl\src\main.cpp(8,14): message : see reference to class template instantiation 'nstl::vector<int>' being compiled
+  nstl.vcxproj -> C:\C++ Projects\nstl\x64\Debug\nstl.exe
