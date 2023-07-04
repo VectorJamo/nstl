@@ -1,10 +1,12 @@
 #include <iostream>
 #include "nvector.h"
+#include "narray.h"
 
 int main()
 {
 	using namespace nstl;
-
+	
+#if 0
 	vector<int> datas;
 	datas.reserve(5);
 
@@ -18,8 +20,16 @@ int main()
 
 	vector<int> datas2 = datas;
 
-	
 	std::cout << datas2[6] << std::endl;
+
+#endif
+
+	array<int, 5> data;
+	data.Fill(10);
+
+	const array<int, 5>& data2 = data;
+	std::cout << data2[3] << std::endl;
+
 
 	system("PAUSE");
 	return 0;

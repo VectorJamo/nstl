@@ -23,5 +23,8 @@
     <ClInclude Include="src\nvector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\narray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
