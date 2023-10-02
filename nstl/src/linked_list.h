@@ -92,15 +92,12 @@ public:
 		// of linked lists but definitely needs some work if I want to make it "production" ready.
 		m_Size--;
 		if (index == 0) {
-			// TODO: delete the first element from the list
-
 			Node<T>* temp = m_HeadNode;
 			m_HeadNode = m_HeadNode->next;
 
 			delete temp;
 		}
 		else if(index == m_Size-1) {
-			// TODO: delete the last element
 			int counter = 0;
 			Node<T>* temp = m_HeadNode;
 
